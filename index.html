@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Theme 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+      body {
+        font: 20px "Montserrat", sans-serif;
+        line-height: 1.8;
+        color: #f5f6f7;
+      }
+
+      p {font-size: 16px;}
+      .bg-1{
+        background-color: Gray;
+        color: #ffffff;
+      }
+      .bg-2{
+        background-color: Crimson;
+        color: #ffffff;
+      }
+      .bg-3{
+        background-color: White;
+        color: Gray;
+      }
+      .bg-4{
+        background-color: #2f2f2f;
+        color: #ffffff;
+      }
+      .container-fluid{
+        padding-top: 70px;
+        padding-bottom: 70px;
+      }
+      .navbar{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: 0 ;
+        border-radius: 0;
+        margin-bottom: 0;
+        font-size: 12px;
+        letter-spacing: 5px;
+      }
+      .navbar-nav li a:hover{
+        color:#1abc9c !important;
+      }
+      
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand">Me</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">FLASH 2018</a></li>
+            <li><a href="#">WHO</a></li>
+            <li><a href="#">MY VILLAINS</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid bg-1 text-center">
+      <h3>FLASH 2018</h3>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel" style="display:inline-block">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+
+        </ol>
+
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="Flash1.jpg" alt="Flash1">
+          </div>
+
+          <div class="item">
+            <img src="Flash2.jpg" alt="Flash2">
+          </div>
+
+          <div class="item">
+            <img src="Flash3.jpg" alt="Flash3">
+          </div>
+          <div class="item">
+            <img src="Flash4.jpg" alt="Flash4">
+          </div>
+        </div>
+
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <h3>Fastest Man Alive</h3>
+    </div>
+    <div class="container-fluid bg-2 text-center">
+      <h3>Who am I?</h3>
+      <p>Young Barry Allen’s life stopped the minute his mother was murdered. The true killer never found, its mystery obsessed Barry, driving him to become a forensic scientist. Consumed by his work, he spent his life chained to his desk, solving every case that flew across it. But when a freak lightning bolt hits a nearby shelf in his lab, Barry receives super-speed, becoming the Flash. Now, he’ll race up buildings, across oceans, and around the world to get his man—while getting introduced to a world so much bigger than his old life of microscopes and cold cases.
+      </p>
+      <a href="https://www.dccomics.com/characters/the-flash" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-hand-right"></span> Visit Me</a>
+    </div>
+    <div class="container-fluid bg-3 text-center">
+      <h3>My Villains</h3>
+      <div class="row">
+        <div class="col-sm-4">
+          <h4>Reverse Flash</h4>
+          <p>For every action, there's an equal and opposite reaction. And with every step the Flash takes toward the future, someone from the future is racing backward through time to stop him—the villainous speedster known as the Reverse-Flash.
+          </p>
+          <img src="rflash1.jpg" class="img-responsive" style="width:100%" alt="Reverse Flash">
+        </div>
+        <div class="col-sm-4">
+          <h4>Grodd</h4>
+          <p>Through millions of years of adaptation and change, human beings evolved to become the dominant species on the planet Earth. But for the super-villain known as Grodd, the world shouldn't belong to the humans. It belongs to the apes.
+          </p>
+          <img src="grodd.jpg" class="img-responsive" style="width:100%" alt="Grodd">
+        </div>
+        <div class="col-sm-4">
+          <h4>Zoom</h4>
+          <p>   Many heroes had tragedies happen at a young age or in the early days of their careers. But for those who haven't, one man makes it his duty to break them down in order to make them better, even if he has to force their tragedy himself: Zoom.
+          </p>
+          <img src="zoom.jpg" class="img-responsive" style="width:100%" alt="Zoom">
+        </div>
+
+      </div>
+    </div>
+    <footer class="container-fluid bg-4 text-center">
+      <p>Theme Made By Vikranta</p>
+    </footer>
+  </body>
+</html>
